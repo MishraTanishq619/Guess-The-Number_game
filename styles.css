@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: dimgray;
+}
+
+#main {
+	margin-top: 100px;
+	background-color: gold;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	width: 80vmin;
+	margin-inline: auto;
+	font-size: x-large;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+#h10 {
+	font-size: 7vmin;
+	margin-block: 10%;
+}
+
+input {
+	height: 5vmin;
+	font-size: x-large;
+	text-align: center;
+}
+button {
+	height: 5vmin;
+	width: 10vmin;
+	font-size: x-large;
+}
+
+#main p {
+	margin-block: 3%;
+}
+
+#f1 {
+	display: flex;
+	gap: 5%;
+	margin-left: 4vmin;
+	margin-right: 4vmin;
+}
+
+#feedback {
+	background-color: antiquewhite;
+	margin-block: 5%;
+	margin-inline: 20%;
+	height: 5vmin;
+	text-align: center;
+}

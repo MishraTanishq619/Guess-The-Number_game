@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title></title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body align="center">
+		<div id="main">
+			<h1>Number Guessing Game</h1>
+
+			<hr />
+
+			<p>Try and Guess a Number between 1 and 100</p>
+			<p>You have only 10 attempts.</p>
+
+			<div id="h10">Guess The Number</div>
+			<input type="text" />
+
+			<button type="submit">Guess</button>
+			<div id="f1">
+				<p>Previous Guesses :</p>
+				<p id="prvg"></p>
+			</div>
+			<div id="f1">
+				<p>Guess Remaining :</p>
+				<p id="remg">10</p>
+			</div>
+
+			<div id="feedback"></div>
+		</div>
+		<script src="scripts.js" async defer></script>
+	</body>
+</html>
